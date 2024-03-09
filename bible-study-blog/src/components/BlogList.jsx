@@ -21,7 +21,7 @@ BlogList.propTypes = {
       title: PropTypes.string.isRequired,
       author: PropTypes.string.isRequired,
       date: PropTypes.string.isRequired,
-      content: PropTypes.string.isRequired,
+      content: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
     })
   ).isRequired,
 };

@@ -11,9 +11,9 @@ export default {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
-        fontFamily: {
-          "shadows-into-light": ['"Shadows Into Light"', "cursive"],
-        },
+      },
+      fontFamily: {
+        "shadows-into-light": ['"Shadows Into Light"', "cursive"],
       },
     },
   },
